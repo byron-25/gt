@@ -1,0 +1,64 @@
+
+/*General Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  line-height: 1.6;
+  background-color: #7ec681;
+  color: #333;
+  margin: 5;
+  padding: 5;
+}
+
+/* Navbar */
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #42734c;
+  color: #f4f4f4;
+  position: sticky;
+  top: 0%;
+  z-index: 100;
+
+}
+
+/* Encabezados */
+h1, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  color: #9b8888;
+}
+
+/* Enlaces */
+a {
+  color: #00fff228;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botones */
+button {
+  background-color: #a19a9a74;
+  color: #b3b3b3;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #a19a9a74;
+}
+
